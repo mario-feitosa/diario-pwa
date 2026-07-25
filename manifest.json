@@ -1,7 +1,7 @@
 {
   "name": "Diário do Professor - Canindé",
   "short_name": "Diário Prof.",
-  "start_url": "/usuarios/logar",
+  "start_url": "usuarios/logar",
   "display": "standalone",
   "background_color": "#012B5B",
   "theme_color": "#012B5B",
@@ -13,7 +13,7 @@
       "type": "image/png"
     },
     {
-      "src": "/icon-512x512.png",
+      "src": "icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
