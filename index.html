@@ -1,0 +1,30 @@
+<!-- ARQUIVO DE EXEMPLO: index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diário do Professor</title>
+    
+    <!-- Configurações do PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#012B5B">
+    <link rel="apple-touch-icon" href="icon-192x192.png">
+</head>
+<body>
+    <h1>Redirecionando para o Diário...</h1>
+    <script>
+        // Registro do Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(registration => console.log('SW registrado!', registration.scope))
+                    .catch(err => console.log('Erro no SW:', err));
+            });
+        }
+        
+        // Redirecionamento para o sistema principal
+        window.location.href = "https://diario.caninde.ensino.site/usuarios/logar";
+    </script>
+</body>
+</html>

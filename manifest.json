@@ -1,0 +1,21 @@
+{
+  "name": "Diário do Professor - Canindé",
+  "short_name": "Diário Prof.",
+  "start_url": "/usuarios/logar",
+  "display": "standalone",
+  "background_color": "#012B5B",
+  "theme_color": "#012B5B",
+  "description": "Acesso ao Diário dos Professores da Rede Municipal de Canindé de São Francisco",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
